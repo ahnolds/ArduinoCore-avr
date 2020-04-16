@@ -49,7 +49,6 @@ class TwoWire : public Stream
     static void onReceiveService(uint8_t*, int);
   public:
     TwoWire();
-    virtual ~TwoWire();
     virtual begin();
     virtual begin(uint8_t);
     virtual begin(int);
